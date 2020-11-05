@@ -17,25 +17,25 @@
     <hr>
     <h2>Vamos aprender</h2>   
 
-    <p>O que é HTML? Simples, <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, Significa Linguagem de marcação de hipertexto. Digamos que seja um editor de texto para Navegadores, essa ferramente é usada para que possamos editar o nosso conteudo, e tambem possamos marca certas coisas para que ferramentas como CSS e JavaScrip possam interagir com as Tags, essas ferramentas trazem designer(CSS) e interatividade(JavaScrip). <br> 
-    &nbsp; Por exemplo a Tag &lt;header&gt; não tem mudança visivel porem ela está la indicando que tudo que esta entre ela é um cabeçalho. Você pode usar css para editar o cabeçalho, mas isso fica para mais a frente.
+    <p>O que é HTML? Simples, <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, Significa Linguagem de marcação de hipertexto. Digamos que seja um editor de sites para Navegadores podendo fazer formaação de texe, adicionando imagens, cores e etc. Essa ferramenta é usada para que possamos editar o nosso conteudo. O CSS é uma ferramenta usada para o designer do site e já o JavaScript trazer a interatividade no site. <br> 
+    &nbsp; Por exemplo a Tag <code>&lt;header&gt;&lt;/header&gt;</code> não tem mudança visivel porem ela está la indicando que tudo que está entre ela é um cabeçalho.
     </p>
     <h3>Vamos iniciar um documento HTML </h3>
 
-    <p>cada edior tem uma forma de iniciar um arquivo de HTML, porem recomendo usar o Visual Studio Code. Primeiro vá para documentos no seu PC (ou em outra pasta desejada) e crie uma nova pasta para menter tudo organizado, a nova pasta pode se chamar 'Teste' dentro dela crie uma nova pasta com o nome HTML. <br><img src="img/print_1.webp"> <br>
-    &nbsp; Agora no Visual Studio Code vamos abrir a pasta, vá em Arquivo e Abrir Pasta <br><img src="img/print_2.webp"><br> a outra pasta vai esta dentro e você podera acessar posteriormente. Selecione a pasta html e a cima tera quatro icones o primeiro é para criar um novo arquivo, clique nesse e em seguida nomeio com o nome index.html (note que esta em menusculo, escre sempre nomes dos arquivos em menusculo), note que é importante colocar a extenção do arquivo que no caso é .html, no VS code existe outras linguagens de programação você deve ser bem especifico com o que você quer. <br><img src="img/print_3.webp">
+    <p> Vamos usar nesse tutorial o Visual Studio Code (VS Code). Primeiro vá para a pasta documentos em seu PC (ou em outra pasta desejada) e crie uma nova pasta para menter tudo organizado, a nova pasta pode se chamar 'Teste' dentro dela crie uma nova pasta com o nome HTML. <br><img src="img/print_1.webp"> <br>
+    &nbsp; Agora no VS Code vamos abrir a pasta, vá em Arquivo, Abrir Pasta. <br><img src="img/print_2.webp"><br> Selecione a pasta html e a cima tera quatro icones o primeiro é para criar um novo arquivo, clique nesse e em seguida nomeio com o nome index.html (note que esta em menusculo, escreva sempre os nomes dos arquivos em menusculo), note que é importante colocar a extenção do arquivo que no caso é .html, no VS code existe outras linguagens de programação você deve ser bem especifico com o que você quer. <br><img src="img/print_3.webp">
     </p>
     <p>
         Vai se abrir a pagina em branco, digite nela ! e aberte enter ou clica na opçõe que aparece ao digitar a exclamação ou você pode digitar html:5, ira aparecer o seguinte: <br>
         <img src="img/print_4.webp">
-        <br>
-        &#9656;Na primeira linha vemos: <b id="tags">&lt;!DOCTYPE html></b> que declara que é um documento tipo HTML. <br>
-        &#9656;Segunda linha: <b id="tags">&lt;html lang="en"></b> diz ao navegador que seu site qual o idioma, vem em ingles mas pode mudar colocando entra as "pt-br". <br> 
-        &#9656;Terceira linha: <b id="tags">&lt;head></b> aqui temos a cabeça, note que existe outra na linha sete, é a mesma Tag porem esse é o fechamento. algumas Tags possuem fechamento e outras não, a maioria possui o fechamento, mas não se preocupe em saber porque tem ou não tem, isso é uma questao muito além do que estamos vendo aqui. <b id="tags">&lt;head></b> é onde se faz algumas definições do site e onde podemos colocar link para puxar o css e o JavaScrip, vamos ver mais a frente. <br>
-        &#9656;Quarta linha: <b id="tags">&lt;meta charset="UTF-8"></b> aqui você não mexe. Essa é uma configuração para nosso alfabeto, que contem acentuação. <br>
-        &#9656;Quinta linha: <b id="tags">&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></b> é uma predefinição da sua pagina, não se muda. <br>
-        &#9656;Sexta linha: <title>Title</title> simples é apenas um titulo onde você pode ver nos indicadores de aba dos navegadores, coloque um titulo do seu desejo. <br>
-        &nbsp; Agora vamos ver o <b id="tags">&lt;body></b> onde vai tudo que você quer que o usuário veja como texto, imagem, video e etc. <br>
+        <br>  
+        &#9656;Na primeira linha vemos: <code>&lt;!DOCTYPE html></code> que declara que é um documento tipo HTML. <br>
+        &#9656;Segunda linha: <code>&lt;html lang="en"></code> diz ao navegador que seu site qual o idioma, vem em ingles mas pode mudar colocando entra as "pt-br". <br> 
+        &#9656;Terceira linha: <code>&lt;head></code> aqui temos a cabeça, note que existe outra na linha sete, é a mesma Tag porem esse é o fechamento. algumas Tags possuem fechamento e outras não, a maioria possui o fechamento, mas não se preocupe em saber porque tem ou não tem, isso é uma questao muito além do que estamos vendo aqui. <code>&lt;head></code> é onde se faz algumas definições do site e onde podemos colocar link para puxar o css e o JavaScrip, vamos ver mais a frente. <br>
+        &#9656;Quarta linha: <code>&lt;meta charset="UTF-8"></code> aqui você não mexe. Essa é uma configuração para nosso alfabeto, que contem acentuação. <br>
+        &#9656;Quinta linha: <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></code> é uma predefinição da sua pagina, não se muda. <br>
+        &#9656;Sexta linha: <code>&lt;title></code> simples é apenas um titulo onde você pode ver nos indicadores de aba dos navegadores, coloque um titulo do seu desejo. <br>
+        &nbsp; Agora vamos ver o <code>&lt;body></code> onde vai tudo que você quer que o usuário veja como texto, imagem, video e etc. <br>
         <img src="img/print_5.webp">
     </p>
     <h3><b>&lt;body&gt;</b></h3>

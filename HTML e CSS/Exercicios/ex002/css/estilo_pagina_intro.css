@@ -1,6 +1,10 @@
 @charset "UTF-8";
-#tags{
+code{
     font-family: monospace;
+    background-color: rgb(212, 212, 221);
+    color: brown;
+    font-size: 12pt;
+    
 }
 a{
     font-size: 14pt;
@@ -22,7 +26,7 @@ p{
     font-family: sans-serif;
 }
 body{
-    background-color: rgb(170, 199, 136);
+    background-color: rgb(255, 255, 255);
 }
 h3{
     font-family: sans-serif;
