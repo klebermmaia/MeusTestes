@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/** TiTulos **/
+#title{
+    font-weight: bolder; 
+}
+
+/** Paragrafos **/
+p{
+    font-size: 16pt;
+}
+
+/** Enfeites **/
+#line{
+    margin-top: -15px;
+}
+h2, h3, h4, h5, h6{
+    
+    margin-top: -10px;
+}
+mark{
+    background-color: rgba(106, 211, 2, 0.856);
+}
