@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+
+h1{
+    font-family: 'Segoe UI';
+    color: rgb(255, 255, 255);
+}
+h3, p, a {
+    font-family: cursive;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+body{
+    background: no-repeat url("img/ram.jpg" );
+    color: rgb(255, 255, 255);
+
+}
