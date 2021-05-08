@@ -12,26 +12,29 @@
             <a href="index.html">Home</a>
         </header>
     </div>
-    <h3>Paragrafos e quebras de linha</h3> 
     
-    <p>
-        Você pode escrever </br>
-          um Paragrafo de <br>
-          qual quer jeito. <br>
-        Basta colocar tudo <br>
-          no meio do Par de <br>
-          Tags &lt;p&gt; e &lt;/p&gt;. <br> <!-- LESS THAN (Menor Que) e GREATER THAN (Maior Que)-->
-    </p>
-    <p>
-        Para quebrar linha como a cima se usa &lt;br&gt; <br>no final da frase que voce deseja que seja separado. 
-    </p> 
-    <p>Vamos adicionar alguns Emojis:</p>
-    &#x1F590 &#x1F604 &#x1F596
-    <p>Como adicionar emojis? primeiro Você deve ir ao site <b>emojipedia.org</b>, entrando no site escolha o Emoji desejado, copie o Codepoints do Emoji escolhido (menos o U+), vá ao seu editor e digite onde deseja que fique, digite: &#x + o Codepoints (tudo junto) e pronto.
-    </p>
+    
+    <h2>Paragrafos e quebras de linha</h2> 
 
-    <p>Vamos adicionar imagens: </p>
-    <img src="img/emoji_mao.webp" alt="Emoji de mão">
-    <p>Como adicioner imagens? primeiro escolha a imagem que deseja por no seu site, apos escolher salve-a em uma nova pasta do projeto (uma pasta dentro da pasta onde se localiza o index), cole-a na pasta e necessario renomeie o a imagem. No seu editor escolha onde a imagem vai e escreva a Tag: &lt;img src="aqui vai o nome da pasta criada e o nome a imagem com a extenção do arquivo"&gt; como por exemplo &lt;img src="img<b>/</b>emoji_mao.png"&gt;, note a barra, ela é importante para que o navegador saiba onde encontrar a imagem. esse formata (img src="img/emoji_mao.png") quer dizer ao navegador que é solicitado uma imagem no local de origem (src="img/emoji_mao.png) em que img é o nome da pasta e emoji_mao é o nome do arquivo e .png é a extenção do arquivo. Voc&ecirc; tambem pode colocar um nome alternatico caso acontece algum problema ao carregar a pagina do usuário, antes do maior que &gt; voc&ecirc; digita alt="Aqui vai um nome de sua escolha para a imagem"</p> 
+        <h3>Paragrafos</h3>
+         <p>para escrever um parágrafo basta usar a Tag <code>&lt;p&gt;</code> e <code>&lt;/p&gt;</code>, todo o texto deve ir entre a Tag. <br>
+         Como visto no Exemplo abaixo.
+        </p>
+         <p>Tag: <code>&lt;p&gt;</code> Exemplo de Paragrafo. <code>&lt;/p&gt;</code>.</p>
+         <P>OBS.: Paragrafos é algo semantico para o HTML5, no caso dessa Tag não é algo visivel, é apenas para compreenção dos navegadores. Mas cada Paragrafo (Tag <code>&lt;p&gt;</code>) que você usar vai ser colocado em uma nova linha, eliminando a necessidade de uma Tag <code>&lt;br&gt;</code></P>
+
+         
+         
+         
+    <H3>Quebra de linhas</H3>
+        <p>&nbsp;&nbsp;Para quebrar linhas basta usar no final da linha ou palavra que deseja que seja quebrada usa-se a Tag <code>&lt;br&gt;</code>. 
+        A Tag <code>&lt;br&gt;</code> serve para quebrar as linhas quantas vezes quiser, basta usar várias vezes em sequência, como no exemplo abaixo.</p>
+        <p>&nbsp;&nbsp; Aqui um exemplo de <code>&lt;br&gt;</code> <br>
+        --- <br> quebra de quebra de linha. <br>
+        &nbsp;&nbsp;Ou você pode quebrar mais do que <code>&lt;br&gt;</code> <code>&lt;br&gt;</code> <br>
+        ---<br>
+        ---<br>
+        uma linha.</p>
+    
 </body>
 </html>
