@@ -26,6 +26,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: rgb(175, 172, 172);
 }
 #menu {
     display: flex;
@@ -42,14 +43,62 @@ a:hover{
 }
 
 
-@media (max-width: 900px) {
-    #btn-mobile {
-        display: block;
-    }
+@media {
     #menu {
-        display: none;
+        display: block;
+        visibility: hidden;
+        position: absolute;
+        width: 100%;
+        top: 70px;
+        right: 0px;
+        height: 0px;
+        transition: 0.4s;
+        overflow-y: hidden;
+        z-index: 1000;
+        background-color: rgb(175, 172, 172);
     }
     #nav.active #menu {
+        height: calc(100vh - 70px);
+        visibility: visible;
+        overflow-y: auto;
+    }
+    #menu a{
+        padding: 1rem 0;
+        margin: 0 1rem;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.07);
+    }
+    #btn-mobile {
         display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .5rem;
+    }
+    #hamburgue{ 
+        display: block;
+        width: 20px;
+        border-top: 2px solid;
+    }
+    #hamburgue::after, #hamburgue::before{
+        content: '';
+        display: block;
+        height: 2px;
+        width: 20px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .4s;
+        position: relative;
+    }
+    #nav.active #hamburgue{ 
+        border-top: hidden;
+    }
+    #nav.active #hamburgue::before{
+        transform: rotate(135deg);
+    }
+    #nav.active #hamburgue::after{
+        transform: rotate(-135deg);
+        top: -7px;
     }
 }
