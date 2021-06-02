@@ -5,16 +5,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/css_temporaria.css">
+    <link rel="stylesheet" href="../css/estilo_index.css">
     <title>Semantica</title>
 </head>
 <body>
-    <div>
-        <nav>
-            <p>Menu</p>
-            <a href="../index.html">Home</a> <br>
-            <a href="../tags.html">Volta paraTags</a> 
+    <header id="header">
+        <a id="logo" href="">HTML5</a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburgue"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../introduçao.html">introduçao</a></li>
+                <li><a href="../paragrafos_quebra_de_linha.html">paragrafos e quebra de linhas</a></li>
+                <li><a href="../emojis_e_imagens.html">Emojis, Símbolos e Imagens</a></li>
+                <li><a href="../favicon.html">Favicon</a></li>
+                <li><a href="../tags.html">Biblioteca de Tags</a></li>
+                
+            </ul>
         </nav>
-    </div>
+        <script src="../js/script.js"></script> 
+    </header>
+
+
     <h1>Semantica da Tag H1 a H6</h1>
     <p>
         Está tag é usada em títulos, dentro dos títulos existe uma hierarquia que ao pé da letra vai de um título de letra grande para destacar o assunto principal aos títulos menores que seria subtítulos. É usado H1 para título principal à H6 o menor na hierarquia, exemplos na imagem abaixo temos um sumario que demosntra essa hierarquia, dentro da imagem ja esta marcada a hierarquia, note que vai de H1 a H4, em que os Titulos menores (H2, H3 e H4) estão se rerefindo a assuntos dentro do assundo principal. <br>
