@@ -1,4 +1,4 @@
-
+/*Animação do texto que aparece digitando*/
 
 const titulo = document.querySelector('h1');
 typeWrite(titulo);

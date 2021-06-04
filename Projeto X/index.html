@@ -11,12 +11,13 @@
 </head>
 <body>
     <header id="header">
-        <a id="logo" href="">HTML5</a>
+        <a id="logo" href="index.html">Website</a>
         <nav id="nav">
             <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
                 <span id="hamburgue"></span>
             </button>
             <ul id="menu" role="menu">
+                <li><a href="index.html">Home</a></li>
                 <li><a href="introduçao.html">introduçao</a></li>
                 <li><a href="paragrafos_quebra_de_linha.html">paragrafos e quebra de linhas</a></li>
                 <li><a href="emojis_e_imagens.html">Emojis, Símbolos e Imagens</a></li>
@@ -27,9 +28,42 @@
         </nav>
         <script src="js/script.js"></script> 
     </header> 
-     <h1>HTML5, CSS3, JS e muito mais.</h1>
-        
-        
+     <h1 id="titulo1">HTML5, CSS3, JS e muito mais.</h1>
+
+
+     <div class="wrapper">
+         <h1 id="h1-conteudo">html</h1>
+
+        <div class="conteudo">
+            <input type="checkbox" class="ativar-input" id="html">
+            <div class="mostra-conteudo">
+                <label for="html">
+                    <h2 class="titulo-info">O que é HTML.</h2>
+                </label>
+                <p class="conteudo-p">HTML é uma sigla que vem do ingles que significa Hyper Text Markup Language, ou no porquetes Hiper Linguagem de Marcação de Texto. O HTML tem como objetivo inserir conteudo e estabelecer estruturas para um Website.</p>
+            </div>
+        </div>
+        <h1 id="h1-conteudo">css</h1>
+        <div class="conteudo">
+            <input type="checkbox" class="ativar-input" id="css">
+            <div class="mostra-conteudo">
+                <label for="css">
+                    <h2 class="titulo-info">O que é CSS.</h2>
+                </label>
+                <p class="conteudo-p">CSS é uma singla que vem do ingles que siginifica Cascading Style Sheets, ou no portugues Folha de Estilo em Cascatas. O CSS tem como objetivo trazer estilo ao um Website. </p>
+            </div>
+        </div>
+        <h1 id="h1-conteudo">js</h1>
+        <div class="conteudo">
+            <input type="checkbox" class="ativar-input" id="js">
+            <div class="mostra-conteudo">
+                <label for="js">
+                    <h2 class="titulo-info">O que é JS.</h2>
+                </label>
+                <p class="conteudo-p">JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web, toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc</p>
+            </div>
+        </div>
+     </div>
      
      <script src="js/script_index.js"></script>
 </body>
