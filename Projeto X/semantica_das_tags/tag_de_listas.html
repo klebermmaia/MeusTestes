@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo_nav.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href="../index.html">Website</a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburgue"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../introduçao.html">introduçao</a></li>
+                <li><a href="../paragrafos_quebra_de_linha.html">paragrafos e quebra de linhas</a></li>
+                <li><a href="../emojis_e_imagens.html">Emojis, Símbolos e Imagens</a></li>
+                <li><a href="../favicon.html">Favicon</a></li>
+                <li><a href="../tags.html">Biblioteca de Tags</a></li>
+                
+            </ul>
+        </nav>
+        <script src="../js/script.js"></script> 
+    </header>
+
+    <h1>Listas</h1>
+    a tag OL cria uma lista ordenada e a UL cria uma lista não ordenada, já a tag LI cria os itens dentro dessas tags. <br>
+    Exemplo: <br>
+    <code>
+        <ol>&lt;ol&gt;<br>
+            &lt;LI&gt; item 1.&lt;/li&gt; <br>
+            &lt;LI&gt; item 2.&lt;/li&gt; <br>
+            &lt;LI&gt; item 3.&lt;/li&gt; <br>
+            &lt;LI&gt; item 4.&lt;/li&gt; <br>
+            &lt;li&gt; item 5.&lt;/li&gt; <br>
+        &lt;/ol&gt;</ol>
+    </code>
+    se escreve dessa maeira tanto a OL quando Ul. Mas ficaria desse jeito.
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+    note que com a OL existe numeros antes de cada item, isso se deve por se uma lista ordenada. Isso pode ser alterado da seguinte forma, dentro da tag &lt;ol&gt; vá deppois de ol e digite o parametro type="" dentro de type voce tera algumas opções são elas 1, A, a e I. <br>
+    1: é uma lista numerica. <br>
+    A: é uma lista alfabetica de letras maiusculas. <br>
+    a: é uma lista alfabetica de letras menusculas. <br>
+    I: é uma lista de numeros romanos. <br>
+    Tambem tem o parametro start="" que se você usar o type 1 e quiaser que sua lista comece com 2 basta colocar 2 em start. <br>
+    exemplo: <br>
+    <code>
+        <ol>&lt;ol type="1" start="2"&gt;<br>
+            &lt;LI&gt; 2. item 1.&lt;/li&gt; <br>
+            &lt;LI&gt; 3. item 2.&lt;/li&gt; <br>
+            &lt;LI&gt; 4. item 3.&lt;/li&gt; <br>
+            &lt;LI&gt; 5. item 4.&lt;/li&gt; <br>
+            &lt;li&gt; 6. item 5.&lt;/li&gt; <br>
+        &lt;/ol&gt;</ol>
+    </code>
+    o codigo ia facar da seguinte maneira
+    <ol type="1" start="2">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+    isso vale para qualquer type em romano por exemplo. <br>
+    <ol type="I" start="2">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+    </ol>
+</body>
+</html>
