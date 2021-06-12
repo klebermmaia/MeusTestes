@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-body, ul{
+body{
     margin: 0px;
     padding: 0px;
 }
@@ -78,6 +78,7 @@ a:hover{
         background: white;
         
     }
+
     #btn-mobile {
         display: flex;
         padding: .5rem 1rem;

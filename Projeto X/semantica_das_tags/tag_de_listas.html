@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/ico_html_.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/estilo_nav.css">
     <title>Document</title>
 </head>
@@ -21,7 +22,7 @@
                 <li><a href="../emojis_e_imagens.html">Emojis, Símbolos e Imagens</a></li>
                 <li><a href="../favicon.html">Favicon</a></li>
                 <li><a href="../tags.html">Biblioteca de Tags</a></li>
-                
+                <li><a href="../ancoras_e_links.html">Ancoras e Links</a></li>
             </ul>
         </nav>
         <script src="../js/script.js"></script> 
@@ -39,7 +40,7 @@
             &lt;li&gt; item 5.&lt;/li&gt; <br>
         &lt;/ol&gt;</ol>
     </code>
-    se escreve dessa maeira tanto a OL quando Ul. Mas ficaria desse jeito.
+    se escreve a tag <code>&lt;ol&gt;</code> dessa maneira ficaria desse jeito.
     <ol>
         <li>item 1</li>
         <li>item 2</li>
@@ -47,7 +48,7 @@
         <li>item 4</li>
         <li>item 5</li>
     </ol>
-    note que com a OL existe numeros antes de cada item, isso se deve por se uma lista ordenada. Isso pode ser alterado da seguinte forma, dentro da tag &lt;ol&gt; vá deppois de ol e digite o parametro type="" dentro de type voce tera algumas opções são elas 1, A, a e I. <br>
+    note que com a OL existe numeros antes de cada item, isso se deve por ser uma lista ordenada. Isso pode ser alterado da seguinte forma, dentro da tag <code>&lt;ol&gt;</code> e digite o parametro type="", em type você tera algumas opções são elas 1 (que é a padrão), A, a e I. <br>
     1: é uma lista numerica. <br>
     A: é uma lista alfabetica de letras maiusculas. <br>
     a: é uma lista alfabetica de letras menusculas. <br>
@@ -71,7 +72,7 @@
         <li>item 4</li>
         <li>item 5</li>
     </ol>
-    isso vale para qualquer type em romano por exemplo. <br>
+    isso vale para qualquer type até em romano, por exemplo: <br>
     <ol type="I" start="2">
         <li>item 1</li>
         <li>item 2</li>
@@ -79,5 +80,56 @@
         <li>item 4</li>
         <li>item 5</li>
     </ol>
+    listas não ordenadas é inserido uma decoração diferente. No type você pode mudar essa decoração, são elas disc (que é a padrão), circle, square. <br>
+    exemplo: <br>
+
+    <h4>disc</h4>
+    <ul>
+        <li>disc</li>
+    </ul>
+
+    <h4>circle</h4>
+    <ul type="circle">
+        <li>circle</li>
+    </ul>
+
+    <h4>square</h4>
+    <ul type="square">
+        <li>square</li>
+    </ul>
+    <h1>listas mistas</h1>
+    é possivel mescla as lista, colocando uma ul dentro de uma ol ou visse versa. <br>
+    exemplo: <br>
+    <ol>
+        <li>exemplo 1</li>
+        <ul><li>exemplo 1.1</li></ul>
+        <li>exemplo 2</li>
+        <ul><li>exemplo 2.1</li></ul>
+    </ol>
+    ficaria dessa mandeira:<br>
+    <code>
+        <ul>
+            &lt;ol&gt; <br>
+                &lt;li&gt;exemplo 1&lt;/li&gt; <br>
+                &lt;ul&gt;&lt;li&gt;exemplo 1.1&lt;/li&gt;&lt;/ul&gt; <br>
+                &lt;li&gt;exemplo 2&lt;/li&gt; <br>
+                &lt;ul&gt;&lt;li&gt;exemplo 2.1&lt;/li&gt;&lt;/ul&gt; <br>
+            &lt;/ol&gt;<br>
+        </ul>
+    </code>
+    <h1>Bonus</h1>
+    tag dl cria uma lista de definiçõa, tag dl para criar a lista, tag dt para criar o termo e tag dd para criar a definiçõa. <br>
+    Exemplo: <br>
+    <dl>
+        <dt>exemplo</dt>
+        <dd>exemplo é algo para fazer uma mostragem de algo para compreenção</dd>
+    </dl> 
+    se escrever dessa maneira <br>
+    <code>
+        &lt;dl&gt; <br>
+            &lt;dt>exemplo&lt;/dt&gt; <br> 
+            &lt;dd>exemplo é algo para fazer uma mostragem de algo para compreenção&lt;/dd&gt; <br>
+        &lt;/dl&gt; <br>
+    </code>
 </body>
 </html>
