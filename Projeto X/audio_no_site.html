@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo_nav.css">
+    <title>Document</title>
+</head>
+<body>
+    <header id="header">
+        <a id="logo" href="index.html">Website</a>
+        <nav id="nav">
+            <button aria-label="Abrir menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburgue"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="introduçao.html">introduçao</a></li>
+                <li><a href="paragrafos_quebra_de_linha.html">paragrafos e quebra de linhas</a></li>
+                <li><a href="emojis_e_imagens.html">Emojis, Símbolos e Imagens</a></li>
+                <li><a href="favicon.html">Favicon</a></li>
+                <li><a href="tags.html">Biblioteca de Tags</a></li>
+                <li><a href="ancoras_e_links.html">Ancoras e Links</a></li>
+                <li><a href="audio_no_site.html">Audio no site</a></li>
+            </ul>
+        </nav>
+        <script src="js/script.js"></script> 
+    </header>
+
+    <h1>adicionando midia no site</h1>
+    <h3>audio</h3>
+    para adicionar um audio basta usar a tag &lt;audio> e inserir no src="" a origem, mas para que o usuario possa ter controle da midia basta adicionar o parametro controls. <br>
+    ficara da seguinte maneira: <br>
+
+    &lt;audio preload="metadata" autoplay controls> <br>
+        &lt;source src="midia/moana.mp3" type="audio/mpeg"> <br>
+    &lt;/audio>  <br>
+<br>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/moana.mp3" type="audio/mpeg">
+    </audio>
+    <h3>videos</h3>
+    muito paracido com audio, se usa a tag &lt;video>, exemplo: <br>
+    <video src="midia/macaquinho.m4v" controls width="500px" poster="img/thumble_do_video.jpg"></video>
+</body>
+</html>
