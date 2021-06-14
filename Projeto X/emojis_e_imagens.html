@@ -71,6 +71,21 @@
     </p>
     <img src="img/3.webp" alt="HTML e CSS">
 
+    <h2>como adaptar imagens de tamanho diferentes</h2>
+    <p>para adaptar uma imagems para varios tamanha de tela podemos utilizar a tag &lt;picture&gt; e dentro dela mais duas, img e source. <br>
+    ficara dessa maneira:</p>
+    &lt;picture> <br>
+        &lt;source media="(max-min-width: (aqaui o tamanho maximo da imagem))" srcset="(a imagem que vai ser colocada de acordo com o tamanho)" type="image/(aqui depos da barra o pré-formatado da imagem)"> <br>
+        &lt;source media="(max-min-width: )" srcset="" type="image/"> <br>
+        &lt;img src="(imagem inicial)" alt=""> <br>
+    &lt;/picture> <br>
+    <p>a ordem é muito importante entre os source, se a imagem iniciar for grande logo a do meio é sempre a media e o primeiro source é a imagem pequena. <br>
+    funcionamento: </p>
 
+    <picture>
+        <source media="(max-width: 805px)" srcset="img/img_adaptaveis/pequena.png" type="image/png">
+        <source media="(max-width: 1085px)" srcset="img/img_adaptaveis/media.png" type="image/png">
+        <img src="img/img_adaptaveis/grande.png" alt="grande">
+    </picture>
 </body>
 </html>
