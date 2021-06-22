@@ -1,0 +1,33 @@
+@chatset "UTF-8";
+@font-face {
+    font-family: fira_mono-medium;
+    src: url(fonts/fira_mono-medium.ttf);
+}
+
+p{
+    font-size: 13pt;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+code{
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 3px;
+    color: brown;
+    font-weight: bold;
+    font-family: fira_mono-medium;
+    font-size: 12pt;
+}
+
+#ex1{
+    background-color: white;
+    font-size: 12pt;
+    width: 576px;
+    font-family: fira_mono-medium;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 4px rgb(107, 107, 107);
+
+}

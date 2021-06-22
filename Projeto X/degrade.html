@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--css-->
     <link rel="stylesheet" href="css/estilo_nav.css">
+    <link rel="stylesheet" href="css/degrade_style.css">
+    <!--css-->
     <title>Document</title>
     <style>
         body{
@@ -29,11 +32,24 @@
                 <li><a href="tags.html">Biblioteca de Tags</a></li>
                 <li><a href="ancoras_e_links.html">Ancoras e Links</a></li>
                 <li><a href="audio_no_site.html">Audio no site</a></li>
+                <li><a href="degrade.html">Degrade</a></li>
             </ul>
         </nav>
         <script src="js/script.js"></script> 
     </header>
     <h1>como adicionar degrade</h1>
-    para criar um degrader no seu site basta criar um style e usar o comando <code>background-image: linear-gradient();</code> o parametro linear-gradient() criar um degrade basta por entras os () o sentido ou angulo por exemplo to bottom (para baixo) ou 45deg (45° graus)
+    <p>
+        para criar um degrader no seu site basta criar um style e usar o comando <code>background-image: linear-gradient();</code> o parametro linear-gradient() criar um degrade basta por entras os () o sentido ou angulo por exemplo to bottom (para baixo) ou 45deg (45° graus). <br>
+        exemplo: um style local <br>
+    </p>
+
+    <div  id="ex1">
+            &lt;style> <br>
+                body{ <br>
+                    background-image: linear-gradient(150deg, #F3FEB0, #ff8400); <br>
+                    background-attachment: fixed; <br>
+                } <br>
+            &lt;/style> 
+    </div>
 </body>
 </html>
