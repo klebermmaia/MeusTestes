@@ -1,12 +1,15 @@
 @charset "UTF-8";
-
+@font-face {
+    font-family: bree_serif-regular;
+    src: url(fonts/bree_serif-regular.ttf);
+}
 body{
     margin: 0px;
     padding: 0px;
 }
 
 a{
-    color: black;
+    color: #38003D;
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -18,7 +21,7 @@ a:hover{
 #logo{
     font-size: 2rem;
     font-weight: bold;
-    color: white;
+    color: #e589ff;
     font-family: monospace;
 }
 #header {
@@ -28,7 +31,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(0, 0, 0);
+    background-color: #1f0122;
 }
 #menu {
     display: flex;
@@ -41,7 +44,7 @@ a:hover{
 }
 
 #btn-mobile {
-    color: white;
+    color: #e589ff;
     display: none;
 }
 
@@ -52,31 +55,34 @@ a:hover{
         visibility: hidden;
         position: absolute;
         width: 100%;
-        top: 70px;
+        top: 54px;
         right: 0px;
         height: 0px;
         transition: 0.4s;
         overflow-y: hidden;
         z-index: 1000;
-        background-color: rgb(230, 227, 227);
+        background-image: linear-gradient(to bottom, #1f0122, #860492);
     }
     #nav.active #menu {
         height: calc(100vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
+
     #menu a{
-        padding: 1.1rem 0;
-        margin: 1rem 1.1rem;
+        padding: 1rem 0;
+        margin: 1rem 20rem;
         text-align: center;
         font-size: 1.4rem;
-        font-family: monospace;
-        font-weight: bold;
+        font-family: bree_serif-regular;
         text-transform: uppercase;
         border-radius: 4px;
-        box-shadow: 4.5px 6px 2.5px rgba(66, 64, 64, 0.767);
-        background: white;
-        
+        box-shadow: 4.5px 5px 4px #040007;
+        background: #ffffff;
+    }
+    #menu a::before{
+        content: '➜';
+        margin-right: 6px;
     }
 
     #btn-mobile {

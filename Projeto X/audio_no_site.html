@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/ico_html_.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/estilo_nav.css">
+    <link rel="stylesheet" href="css/estilo_txt.css">
     <title>Document</title>
 </head>
 <body>
@@ -30,8 +31,8 @@
         <script src="js/script.js"></script> 
     </header>
 
-    <h1>adicionando midia no site</h1>
-    <h3>audio</h3>
+    <h1 id="main_title">adicionando midia no site</h1>
+    <h3 id="secund_title">audio</h3>
     para adicionar um audio basta usar a tag &lt;audio> e inserir no src="" a origem, mas para que o usuario possa ter controle da midia basta adicionar o parametro controls. <br>
     ficara da seguinte maneira: <br>
 
@@ -42,10 +43,10 @@
     <audio preload="metadata" autoplay controls>
         <source src="midia/moana.mp3" type="audio/mpeg">
     </audio>
-    <h3>videos</h3>
+    <h3 id="secund_title">videos</h3>
     muito paracido com audio, se usa a tag &lt;video>, exemplo: <br>
     <video src="midia/macaquinho.m4v" controls width="500px" poster="img/thumble_do_video.jpg"></video>
-    <h2>Videos do YouTube</h2>
+    <h2 id="secund_title">Videos do YouTube</h2>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/pvbBVEErxM8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>

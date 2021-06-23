@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: fira_mono-medium;
+    src: url(fonts/fira_mono-medium.ttf);
+}
+@font-face {
+    font-family: merriweather_sans-regular;
+    src: url(fonts/merriweather_sans-regular.ttf);
+}
+@font-face {
+    font-family: bree_serif-regular;
+    src: url(fonts/bree_serif-regular.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: merriweather_sans-regular;
+}
+
+p{
+    font-size: 13pt;
+    font-family: bree_serif-regular;
+}
+
+code{
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 3px;
+    color: brown;
+    font-weight: bold;
+    font-family: fira_mono-medium;
+    font-size: 12pt;
+}
+
+#ex1{
+    background-color: white;
+    font-size: 12pt;
+    width: 576px;
+    font-family: fira_mono-medium;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 5px rgb(68, 65, 65);
+
+}
+/*body*/
+body{
+    background-image: linear-gradient(to top, #1f0122, #670270);
+}
+/*css da pagina tags (Tabela)*/
+
+table{
+    display: block;
+    background-color: rgb(210, 206, 211);
+    margin: 80px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    font-family: bree_serif-regular;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 30pt;
+    font-family: merriweather_sans-regular;
+}
+
+tr, td, th{
+    border: .15rem solid black;
+    padding: 3px;
+}

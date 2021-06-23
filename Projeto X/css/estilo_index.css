@@ -1,8 +1,6 @@
 @charset "UTF-8";
 /*estilo Animação do texto que aparece digitando*/
-body{
-    background: #000000d7;
-}
+
 #titulo1{
     
     max-width: 480px;

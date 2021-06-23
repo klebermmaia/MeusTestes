@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/ico_html_.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/css_temporaria.css">
+    <link rel="stylesheet" href="css/estilo_txt.css">
     <link rel="stylesheet" href="css/estilo_nav.css">
     <title>Emojis e Imagens</title>
 </head>
@@ -31,14 +31,14 @@
         <script src="js/script.js"></script> 
     </header> 
 
-    <h1>Emojis, Símbolos e Imagens</h1>
+    <h1 id="main_title">Emojis, Símbolos e Imagens</h1>
     
-        <h2>Emojis</h2>
+        <h2 id="secund_title">Emojis</h2>
             <p>
                 Como adicionar emojis? primeiro Você deve ir ao site <b>emojipedia.org</b>, entrando no site escolha o Emoji desejado, copie o Codepoints do Emoji escolhido (menos o U+), vá ao seu editor e digite onde deseja que fique, digite: &#x + o Codepoints (tudo junto) e pronto.</p> 
             &nbsp;&nbsp;Exemplo: &#x <b>+</b> o Codepoints 1F596 = &amp;#x1F596 (&#x1F596)
             
-        <h2>Símbolos</h2>
+        <h2 id="secund_title">Símbolos</h2>
             <p>
                 Para adicionar símbolos é simples basta pesquisar os códigos dos Entities e Unicode que deseja adicionar, como por exemplo. <br>
                 Uma flor, o codigo da flor é &amp;#10047; &rightarrow; &#10047;
@@ -59,7 +59,7 @@
                     <li>Símbolos de Sinalização;
                 </ul>     
             </p>
-    <h3>Adicionando Imagens</h3>
+    <h3 id="secund_title">Adicionando Imagens</h3>
     
     <p>
         Para adicionar primeiro escolha a imagem que deseja colocar em seu site, após escolher salve em uma nova pasta do seu projeto (uma pasta dentro da pasta onde se localiza o index. Para manter organizado). No seu editor escolha onde a imagem vai e escreva a Tag: <b>&lt;img src=" " alt= " "&gt;</b>. O preenchimento da Tag é dessa maneira: src é o local de origem, como estamos usando uma pasta no mesmo local do arquivo index basta por o nome da pasta e o nome do arquivo. Exemplo: &lt;img src="imagem/imagem<b>.png</b>" (OBS.: a extensão do arquivo é muito importante). Em alt=" " é o texto que melhor define essa imagems, não é obrigatório ser preenchido. <br>
@@ -67,7 +67,7 @@
     </p>
     <img src="img/3.webp" alt="HTML e CSS">
 
-    <h2>como adaptar imagens de tamanho diferentes</h2>
+    <h2 id="secund_title">como adaptar imagens de tamanho diferentes</h2>
     <p>para adaptar uma imagems para varios tamanha de tela podemos utilizar a tag &lt;picture&gt; e dentro dela mais duas, img e source. <br>
     ficara dessa maneira:</p>
     &lt;picture> <br>
