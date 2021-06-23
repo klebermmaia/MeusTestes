@@ -37,7 +37,7 @@
     font-size: 2em;
     font-family: sans-serif;
     text-transform: uppercase;
-    color: rgba(183, 235, 241, 0.959);
+    color: #05F240;
     text-decoration: underline;
 }
 .conteudo{
@@ -93,3 +93,4 @@
 .ativar-input:checked + .mostra-conteudo .conteudo-p {
     display: block;
 }
+/*fim*/

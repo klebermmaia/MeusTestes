@@ -9,7 +9,7 @@ body{
 }
 
 a{
-    color: #38003D;
+    color: #01260E;
     text-decoration: none;
     font-family: sans-serif;
 }
@@ -21,7 +21,7 @@ a:hover{
 #logo{
     font-size: 2rem;
     font-weight: bold;
-    color: #e589ff;
+    color: #05F240;
     font-family: monospace;
 }
 #header {
@@ -31,7 +31,7 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #1f0122;
+    background-color: #01200ccc;
 }
 #menu {
     display: flex;
@@ -44,7 +44,7 @@ a:hover{
 }
 
 #btn-mobile {
-    color: #e589ff;
+    color: #05F240;
     display: none;
 }
 
@@ -61,7 +61,7 @@ a:hover{
         transition: 0.4s;
         overflow-y: hidden;
         z-index: 1000;
-        background-image: linear-gradient(to bottom, #1f0122, #860492);
+        background-image: linear-gradient(to bottom, #01200c, #038C33);
     }
     #nav.active #menu {
         height: calc(100vh - 70px);
@@ -77,7 +77,7 @@ a:hover{
         font-family: bree_serif-regular;
         text-transform: uppercase;
         border-radius: 4px;
-        box-shadow: 4.5px 5px 4px #040007;
+        box-shadow: 2px 2px 9px #00f33d;
         background: #ffffff;
     }
     #menu a::before{
@@ -120,3 +120,32 @@ a:hover{
         top: -7px;
     }
 }
+
+
+
+
+
+
+
+/*PALETA DE CORES*/
+
+/* Color Theme Swatches in Hex */
+Design-de-jogos-1-hex { color: #038C33; }
+Design-de-jogos-2-hex { color: #025920; }
+Design-de-jogos-3-hex { color: #01260E; }
+Design-de-jogos-4-hex { color: #05F240; }
+Design-de-jogos-5-hex { color: #0D0D0D; }
+
+/* Color Theme Swatches in RGBA */
+Design-de-jogos-1-rgba { color: rgba(2, 140, 50, 1); }
+Design-de-jogos-2-rgba { color: rgba(1, 89, 32, 1); }
+Design-de-jogos-3-rgba { color: rgba(0, 38, 13, 1); }
+Design-de-jogos-4-rgba { color: rgba(4, 242, 64, 1); }
+Design-de-jogos-5-rgba { color: rgba(12, 12, 12, 1); }
+
+/* Color Theme Swatches in HSLA */
+Design-de-jogos-1-hsla { color: hsla(140, 96, 28, 1); }
+Design-de-jogos-2-hsla { color: hsla(140, 96, 17, 1); }
+Design-de-jogos-3-hsla { color: hsla(140, 96, 7, 1); }
+Design-de-jogos-4-hsla { color: hsla(135, 96, 48, 1); }
+Design-de-jogos-5-hsla { color: hsla(0, 0, 5, 1); }
