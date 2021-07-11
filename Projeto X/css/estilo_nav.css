@@ -14,8 +14,8 @@ a{
     font-family: sans-serif;
 }
 
-a:hover{
-    background: rgba(0, 0, 0, 0.07);
+nav a:hover{
+    color: #0ec23b;
 }
 
 #logo{
@@ -64,20 +64,20 @@ a:hover{
         background-image: linear-gradient(to bottom, #01200c, #038C33);
     }
     #nav.active #menu {
-        height: calc(100vh - 70px);
+        height: calc(100vh - 70px); 
         visibility: visible;
         overflow-y: auto;
     }
-
+    
     #menu a{
         padding: 1rem 0;
-        margin: 1rem 20rem;
+        margin: 1.5rem 370px ;
         text-align: center;
         font-size: 1.4rem;
         font-family: bree_serif-regular;
         text-transform: uppercase;
         border-radius: 4px;
-        box-shadow: 2px 2px 9px #00f33d;
+        box-shadow: 3px 3px 9px 5px #00f33d79;
         background: #ffffff;
     }
     #menu a::before{

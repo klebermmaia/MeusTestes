@@ -3,16 +3,19 @@
     font-family: LEMONMILK-Regular;
     src: url(fonts/LEMONMILK-Regular.otf);
 }
+
+
+
 code{
     font-family: monospace;
     background-color: rgb(212, 212, 221);
-    color: brown;
+    color: #01260E;
     font-size: 12pt;
     display: inline-block;
     border-radius: 5px; /*para arredondar o fundo*/
     padding: 2px;
 }
-
+/*
 #titulo1{
     text-align: center;
     font-family: LEMONMILK-Regular;

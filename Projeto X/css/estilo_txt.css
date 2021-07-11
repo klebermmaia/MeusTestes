@@ -11,22 +11,42 @@
     font-family: bree_serif-regular;
     src: url(fonts/bree_serif-regular.ttf);
 }
+/*    Textos em Geral
+      H1, H2, H3... P..    */
 
-h1{
+.h1{
+    margin: 20px;
     text-align: center;
+    font-size: 60px;
+    font-weight: 400;
+    text-decoration: underline;
+    font-family: bree_serif-regular;
+}
+.h2{
+    font-size: 30px;
+    margin: 0px 0px 20px 0px;
+    font-family: merriweather_sans-regular; 
+}
+
+.h3{
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    margin-top: 0px;
     font-family: merriweather_sans-regular;
 }
 
-p{
+.p{
+    margin-top: 0px;
     font-size: 13pt;
     font-family: bree_serif-regular;
 }
 
-code{
+.code{
     background-color: aliceblue;
     border-radius: 4px;
     padding: 3px;
-    color: brown;
+    color: #ff00d4;
     font-weight: bold;
     font-family: fira_mono-medium;
     font-size: 12pt;
@@ -45,9 +65,22 @@ code{
 
 }
 /*body*/
+
 body{
     background-image: linear-gradient(to top, #01260E, #038C33);
 }
+
+#estilo_conteudo {
+    background-color: white;
+    margin: 150px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    padding: 30px;
+    border-radius: 4px;
+    box-shadow: 6px 6px 10px black;
+}
+
+
 /*css da pagina tags (Tabela)*/
 
 table{

@@ -30,72 +30,73 @@
         </nav>
         <script src="js/script.js"></script> 
     </header>
+    <main id="estilo_conteudo">
+    <h1 class="h1">HTML</h1>
 
-    <h1 id="titulo1">HTML</h1>
-    <hr>
-    <h2 id="secund_title">Vamos aprender</h2>   
+        <h2 class="h2">Vamos aprender</h2>   
+            <h3 class="h3">O que é HTML</h3>
+                <p class="p">O que é <abbr title="HyperText Markup Language" style="text-decoration: underline;">HTML</abbr>? Simples, <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, Significa Linguagem de marcação de hipertexto. Digamos que seja um jeito de editar paginas de sites para Navegadores podendo fazer formatação de texto. Essa ferramenta é usada para que possamos editar o nosso conteudo. Para que possamos dar estilo/Beleza ao nosso site é necessário o uso do <b><abbr title="Cascading Style Sheets" style="text-decoration: underline;">CSS</abbr></b> para estilizar o site. <br> 
+                O HTML em versões anteriores a 5º versão era apenas marcaçoes de texto para que possamos editar o nosso conteudo, mas com a chegada da 5º versão foi dado sentido as Tags. <br>
+                Isso é, um texto em negrito é usado para dar Destaque, mas o que muda? simples a imterpretação, que é voltada para os navegadores saberem que aquele texto em questão esta destacados, para nós que vemos é claro o destaque. <br>
+                &nbsp; Por exemplo a Tag <code>&lt;header&gt;&lt;/header&gt;</code> não tem mudança visivel porem ela está la indicando que tudo que está entre ela é um cabeçalho.
+                </p>
 
-    <p>O que é HTML? Simples, <b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, Significa Linguagem de marcação de hipertexto. Digamos que seja um jeito de editar paginas de sites para Navegadores podendo fazer formatação de texto. Essa ferramenta é usada para que possamos editar o nosso conteudo. Para que possamos dar estilo/Beleza ao nosso site é necessário o uso do <b>CSS</b> para estilizar o site. <br> 
-        O HTML em versões anteriores a 5º versão era apenas marcaçoes de texto para que possamos editar o nosso conteudo, mas com a chegada da 5º versão foi dado sentido as Tags. <br>
-        Isso é, um texto em negrito é usado para dar Destaque, mas o que muda? simples a imterpretação, que é voltada para os navegadores saberem que aquele texto em questão esta destacados, para nós que vemos é claro o destaque. <br>
-    &nbsp; Por exemplo a Tag <code>&lt;header&gt;&lt;/header&gt;</code> não tem mudança visivel porem ela está la indicando que tudo que está entre ela é um cabeçalho.
-    </p>
+                <h3 class="h3">A importancia da semântica</h3>
+                    <p class="p">
+                    Semântica é o significado, num sistema linguístico, o componente do sentido das palavras e da interpretação das sentenças e dos enunciados. <br>
+                     No HTML é incide sobre a relação entre significantes, tais como palavras, frases, sinais e símbolos, e o que eles representam, a sua denotação. A semântica linguística estuda o significado usado por seres humanos para se expressar através da linguagem. <br>
+                    </p>
 
-    <h3 id="secund_title">A importancia da semântica</h3>
-    <p>
-        Semântica é o significado, num sistema linguístico, o componente do sentido das palavras e da interpretação das sentenças e dos enunciados. <br>
-        No HTML é incide sobre a relação entre significantes, tais como palavras, frases, sinais e símbolos, e o que eles representam, a sua denotação. A semântica linguística estuda o significado usado por seres humanos para se expressar através da linguagem. <br>
+                <h3 class="h3">Vamos iniciar um documento HTML </h3>
 
-    </p>
-
-    <h3 id="secund_title">Vamos iniciar um documento HTML </h3>
-
-    <p> Vamos usar nesse tutorial o Visual Studio Code (VS Code). Primeiro vá para a pasta documentos em seu PC (ou em outra pasta desejada) e crie uma nova pasta para menter tudo organizado, a nova pasta pode se chamar 'Teste' dentro dela crie uma nova pasta com o nome HTML. <br>
-        <figure>
-            <img src="img/print_1.webp">
-            <figcaption>Exemplo 1</figcaption>
-        </figure> 
+                    <p class="p"> Vamos usar nesse tutorial o Visual Studio Code (VS Code). Primeiro vá para a pasta documentos em seu PC (ou em outra pasta desejada) e crie uma nova pasta para menter tudo organizado, a nova pasta pode se chamar 'Teste' dentro dela crie uma nova pasta com o nome HTML. <br>
+                        <figure>
+                            <img src="img/print_1.webp">
+                            <figcaption>Exemplo 1</figcaption>
+                        </figure> 
     <br>
-    &nbsp; Agora no VS Code vamos abrir a pasta, vá em Arquivo, Abrir Pasta. <br>
-    <figure>
-        <img src="img/print_2.webp">
-        <figcaption>Exemplo 2</figcaption>
-    </figure>
-    <br> Selecione a pasta html e a cima tera quatro icones o primeiro é para criar um novo arquivo, clique nesse e em seguida nomeio com o nome index.html (note que esta em menusculo, escreva sempre os nomes dos arquivos em menusculo), note que é importante colocar a extenção do arquivo que no caso é .html, no VS code existe outras linguagens de programação você deve ser bem especifico com o que você quer. <br>
-    <figure>
-        <img src="img/print_3.webp">
-        <figcaption>Exemplo 3</figcaption>
-    </figure>
-    </p>
+                    <p class="p">Agora no VS Code vamos abrir a pasta, vá em Arquivo, Abrir Pasta.</p>
+                        <figure>
+                            <img src="img/print_2.webp">
+                            <figcaption>Exemplo 2</figcaption>
+                        </figure>
+                     <p class="p">Selecione a pasta html e a cima tera quatro icones o primeiro é para criar um novo arquivo, clique nesse e em seguida nomeio com o nome index.html (note que esta em menusculo, escreva sempre os nomes dos arquivos em menusculo), note que é importante colocar a extenção do arquivo que no caso é .html, no VS code existe outras linguagens de programação você deve ser bem especifico com o que você quer.</p>
+                        <figure>
+                            <img src="img/print_3.webp">
+                            <figcaption>Exemplo 3</figcaption>
+                        </figure>
+                    </p>
     
-    <p>
-        Vai se abrir a pagina em branco, digite nela ! e aberte enter ou clica na opçõe que aparece ao digitar a exclamação ou você pode digitar html:5, ira aparecer o seguinte: <br>
-        <figure>
-            <img src="img/print_4.webp">
-            <figcaption>Exemplo 4</figcaption>
-        </figure>
+                    <p class="p">
+                    Vai se abrir a pagina em branco, digite nela ! e aberte enter ou clica na opçõe que aparece ao digitar a exclamação ou você pode digitar html:5, ira aparecer o seguinte: <br>
+                        <figure>
+                            <img src="img/print_4.webp">
+                            <figcaption>Exemplo 4</figcaption>
+                        </figure>
         <br>  
-        &#9656;Na primeira linha vemos: <code>&lt;!DOCTYPE html></code> que declara que é um documento tipo HTML. <br>
-        &#9656;Segunda linha: <code>&lt;html lang="en"></code> diz ao navegador que seu site qual o idioma, vem em ingles mas pode mudar colocando entra as "pt-br". <br> 
-        &#9656;Terceira linha: <code>&lt;head></code> aqui temos a cabeça, note que existe outra na linha sete, é a mesma Tag porem esse é o fechamento. algumas Tags possuem fechamento e outras não, a maioria possui o fechamento, mas não se preocupe em saber porque tem ou não tem, isso é uma questao muito além do que estamos vendo aqui. <code>&lt;head></code> é onde se faz algumas definições do site e onde podemos colocar link para puxar o css e o JavaScrip, vamos ver mais a frente. <br>
-        &#9656;Quarta linha: <code>&lt;meta charset="UTF-8"></code> aqui você não mexe. Essa é uma configuração para nosso alfabeto, que contem acentuação. <br>
-        &#9656;Quinta linha: <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></code> é uma predefinição da sua pagina, não se muda. <br>
-        &#9656;Sexta linha: <code>&lt;title></code> simples é apenas um titulo onde você pode ver nos indicadores de aba dos navegadores, coloque um titulo do seu desejo. <br>
-        &nbsp; Agora vamos ver o <code>&lt;body></code> onde vai tudo que você quer que o usuário veja como texto, imagem, video e etc. <br>
-        <figure>
-            <img src="img/print_5.webp">
-            <figcaption>Exemplo 5</figcaption>
-        </figure>
-    </p>
-    <h3 id="secund_title"><b>&lt;body&gt;</b></h3>
-    <p>
-        &nbsp;No body que esta na linha oito temos a liberdade de escrever qual quer coisa, mas reza a lenda que quem nunca iniciar seu primeiro programa com o famoso <b>Hello world!</b> nunca aprendera a programar a linguagem que esta praticando... Bom é so uma lenda mas eu mesmo não me arisquei, quer dizer não mais, no passado não fiz e so vim aprender depois de alguns anos depois e dessa vez eu fiz tudo certinhoi. <br>
-        &nbsp; você pode só escrever Hello world ou pode incrementar com um &lt;h1&gt;&lt;/h1&gt;, digite entre ele o Ola mundo (pode ser um portugues mesmo&#x1F60A), o h1 é usado para titulos, 1 é o maior e vai ate 6 que é o menor. faça testes para ver a diferença. <br>
-        <figure>
-            <img src="img/print_6.webp">
-            <figcaption>Exemplo 6</figcaption>
-        </figure> 
-    </p>
+                        <p class="p">
+                            &#9656;Na primeira linha vemos: <code>&lt;!DOCTYPE html></code> que declara que é um documento tipo HTML. <br>
+                            &#9656;Segunda linha: <code>&lt;html lang="en"></code> diz ao navegador que seu site qual o idioma, vem em ingles mas pode mudar colocando entra as "pt-br". <br>
+                            &#9656;Terceira linha: <code>&lt;head></code> aqui temos a cabeça, note que existe outra na linha sete, é a mesma Tag porem esse é o fechamento. algumas Tags possuem fechamento e outras não, a maioria possui o fechamento, mas não se preocupe em saber porque tem ou não tem, isso é uma questao muito além do que estamos vendo aqui. <code>&  lt;head></code> é onde se faz algumas definições do site e onde podemos colocar link para puxar o css e o JavaScrip, vamos ver mais a frente. <br>
+                            &#9656;Quarta linha: <code>&lt;meta charset="UTF-8"></code> aqui você não mexe. Essa é uma configuração para nosso alfabeto, que contem acentuação. <br>
+                            &#9656;Quinta linha: <code>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"></code> é uma predefinição da sua pagina, não se muda. <br>
+                            &#9656;Sexta linha: <code>&lt;title></code> simples é apenas um titulo onde você pode ver nos indicadores de aba dos navegadores, coloque um titulo do seu desejo. <br>
+                            &nbsp; Agora vamos ver o <code>&lt;body></code> onde vai tudo que você quer que o usuário veja como texto, imagem, video e etc.
+                        </p>
+                        <figure>
+                        <img src="img/print_5.webp">
+                            <figcaption>Exemplo 5</figcaption>
+                        </figure>
+                    </p>
+                <h3 class="h3"><b>&lt;body&gt;</b></h3>
+                    <p class="p">
+                        &nbsp;No body que esta na linha oito temos a liberdade de escrever qual quer coisa, mas reza a lenda que quem nunca iniciar seu primeiro programa com o famoso <b>Hello world!</b> nunca aprendera a programar a linguagem que esta praticando... Bom é so uma lenda mas eu mesmo não me arisquei, quer dizer não mais, no passado não fiz e so vim aprender depois de alguns anos depois e dessa vez eu fiz tudo certinhoi. <br>
+                        &nbsp; você pode só escrever Hello world ou pode incrementar com um &lt;h1&gt;&lt;/h1&gt;, digite entre ele o Ola mundo (pode ser um portugues mesmo&#x1F60A), o h1 é usado para titulos, 1 é o maior e vai ate 6 que é o menor. faça testes para ver a diferença. <br>
+                        <figure>
+                            <img src="img/print_6.webp">
+                            <figcaption>Exemplo 6</figcaption>
+                        </figure> 
+                    </p>
 
 <br>
 <br>
