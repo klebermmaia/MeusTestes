@@ -1,0 +1,121 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+    font-weight: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    /*paleta*/
+    --cor1: #C5EBD6;
+    --cor2: #83E1AD;
+    --cor3: #3DDC84;
+    --cor4: #2FA866;
+    --cor5: #063D1E;
+
+    /*fontes*/
+    --idroid: 'idroid';
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: var(--cor2);
+    font-family: var(--fonte-padrao);
+}
+header{
+    font-family: var(--fonte-destaque);
+    background-image:linear-gradient(to bottom, var(--cor3), var(--cor5)) ;
+}
+header > h1{
+    color: white;
+    text-align: center;
+}
+header > p{
+    color: white;
+}
+
+nav {
+    background-color: var(--cor5);
+    color: white;
+}
+
+main{
+    min-width: 320px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: white;
+}
+
+main h1, h2{
+    font-family: var(--idroid);
+}
+main h1{
+    color: var(--cor5);
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+main h2{
+    background-image: linear-gradient(to right, var(--cor2), white);
+    color: var(--cor5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+
+footer{
+    padding: 3px;
+    text-align: center;
+    color: #C5EBD6;
+    background-color: var(--cor5);
+}
+footer a{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+main img{
+    width: 100%;
+}
+
+main .pequena{
+    width: 50%;
+    display: block;
+    margin: auto;
+    box-shadow: 0px 0px 3px 2px rgba(0, 0, 0, 0.349);
+}
+aside{
+    margin: 20px;
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+aside h3{
+    background-color: var(--cor5);
+
+}
+strong{
+    color: var(--cor5);
+}
+iframe{
+    display: block;
+    background-color: var(--cor5);
+    border: 30px solid var(--cor5);
+    margin: auto;
+    width: 100%;
+}

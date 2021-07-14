@@ -6,15 +6,7 @@
 
 
 
-code{
-    font-family: monospace;
-    background-color: rgb(212, 212, 221);
-    color: #01260E;
-    font-size: 12pt;
-    display: inline-block;
-    border-radius: 5px; /*para arredondar o fundo*/
-    padding: 2px;
-}
+
 /*
 #titulo1{
     text-align: center;

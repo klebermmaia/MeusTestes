@@ -39,17 +39,18 @@
 .p{
     margin-top: 0px;
     font-size: 13pt;
+    font-weight: lighter;
     font-family: bree_serif-regular;
 }
 
-.code{
-    background-color: aliceblue;
-    border-radius: 4px;
-    padding: 3px;
-    color: #ff00d4;
-    font-weight: bold;
-    font-family: fira_mono-medium;
+code{
+    font-family: monospace;
+    background-color: rgb(212, 212, 221);
+    color: #01260E;
     font-size: 12pt;
+    font-weight: bold;
+    border-radius: 5px; /*para arredondar o fundo*/
+    padding: 2px;
 }
 
 #ex1{
